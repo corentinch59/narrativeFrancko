@@ -6,43 +6,33 @@ public class AnimationController : MonoBehaviour
 {
     public Animator animator;
 
-    public void PlayPrepare(bool smooth)
+    public void PlayPrepare()
     {
-        if (smooth)
-            animator.SetTrigger("Prepare");
-        else
-            animator.Play("Dual_Prepare");
+        animator.Play("Dual_Prepare");
     }
 
-    public void PlayReady(bool smooth)
+    public void PlayReady()
     {
-        if (smooth)
-            animator.SetTrigger("Ready");
-        else
-            animator.Play("Dual_Ready");
+        animator.Play("Dual_Ready");
     }
 
-    public void PlayShoot(bool smooth)
+    public void PlayShoot()
     {
-        if (smooth)
-            animator.SetTrigger("Shoot");
-        else
-            animator.Play("Dual_Shoot");
+        animator.Play("Dual_Shoot");
     }
 
-    public void PlayKnifeTravel(bool smooth)
+    public void PlayKnifeTravel()
     {
-        if (smooth)
-            animator.SetTrigger("KnifeTravel");
-        else
-            animator.Play("Dual_KnifeTravel");
+        animator.Play("Dual_KnifeTravel");
     }
 
-    public void PlayEnd(bool smooth)
+    public void PlayShooting()
     {
-        if (smooth)
-            animator.SetTrigger("End");
-        else
-            animator.Play("Dual_End");
+        animator.Play("Dual_Shooting");
+    }
+
+    public void PlayEnd()
+    {
+        animator.Play("Dual_End");
     }
 }
