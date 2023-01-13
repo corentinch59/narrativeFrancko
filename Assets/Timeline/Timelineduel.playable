@@ -508,7 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 17.08
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: f59b0e65657491240ab739da6c5551b4, type: 2}
 --- !u!114 &-6273022732207953534
 MonoBehaviour:
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 16.5
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: f1adec45967850045984871ff983ca57, type: 2}
 --- !u!114 &-6206613464207050593
 MonoBehaviour:
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: e172a11ca79fd1d4db294606c3ac95c5, type: 2}
 --- !u!74 &-1687324327696550106
 AnimationClip:
@@ -1440,7 +1440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 16.5
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 6ebb2e98cdc33404d9cf9eeeec76c833, type: 2}
 --- !u!114 &-386448410459897942
 MonoBehaviour:
@@ -2232,7 +2232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 75c32c6bf78e2f8468fe4a38cb5fa6b9, type: 2}
 --- !u!114 &2382317242332058895
 MonoBehaviour:
@@ -2824,7 +2824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 29
   m_Retroactive: 0
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: f6dbdff5178c83e4494c1e50ec35da04, type: 2}
 --- !u!114 &5638104093102018213
 MonoBehaviour:
