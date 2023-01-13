@@ -6,11 +6,8 @@ public class DialoguePlay : MonoBehaviour
 {
     public DialogueID[] dialogues;
 
-    void Update()
+    public void StartDialogue()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            DialogueManager.Instance.InitDialogue(dialogues);
-        }
+        DialogueManager.Instance.InitDialogue(dialogues);
     }
 }

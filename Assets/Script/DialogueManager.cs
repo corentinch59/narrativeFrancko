@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
 
+    public GameObject ButtonOne, ButtonTwo;
+
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private Text nameText;
     [SerializeField] private Image persoImageLeft, persoImageRight;
@@ -51,6 +53,9 @@ public class DialogueManager : MonoBehaviour
 
     public void InitDialogue(DialogueID[] dialogue)
     {
+        ButtonOne.SetActive(false);
+        ButtonTwo.SetActive(false);
+
         actualDialogueState = DialogueState.INTERACTION;
         actualDialogueDelegate = DisplayTextInstant;
 
@@ -86,6 +91,9 @@ public class DialogueManager : MonoBehaviour
 
         if(sentences.Count == 0)
         {
+            ButtonOne.SetActive(true);
+            ButtonTwo.SetActive(true);
+
             dialogueBox.SetActive(false);
             actualDialogueDelegate = null;
             return;
