@@ -5,6 +5,11 @@ using UnityEngine;
 public class AnimationController : MonoBehaviour
 {
     public Animator animator;
+    
+    public void PlayIdle()
+    {
+        animator.Play("Dual_Idle");
+    }
 
     public void PlayPrepare()
     {
