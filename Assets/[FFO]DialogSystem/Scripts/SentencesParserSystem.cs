@@ -98,5 +98,4 @@ public class SentencesParserSystem
 	{
 		return rowList.FindAll(x => x.SP == find);
 	}
-
 }

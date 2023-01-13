@@ -16,22 +16,24 @@ public class DialogController : MonoBehaviour
     private DialogConfig _dialog;
     private int _idCurrentSentence = 0;
 
+    public GameObject dialogueScreen;
+
     private AudioSource _audioSource;
 
     private void Awake()
     {
-        _audioSource = GetComponent<AudioSource>();
+        //_audioSource = GetComponent<AudioSource>();
     }
 
     public void PlayDialog(DialogConfig dialog)
     {
-        gameObject.SetActive(true);
+        dialogueScreen.SetActive(true);
 
-        //txtNameLeft.text = dialog.nameLeft;
-        //imgSpriteLeft.sprite = dialog.spriteLeft;
+        txtNameLeft.text = dialog.speakers[0].speakerData.label;
+        imgSpriteLeft.sprite = dialog.speakers[0].speakerData.statuses[0].icon;
 
-        //txtNameRight.text = dialog.nameRight;
-        //imgSpriteRight.sprite = dialog.spriteRight;
+        txtNameRight.text = dialog.speakers[1].speakerData.label;
+        imgSpriteRight.sprite = dialog.speakers[1].speakerData.statuses[0].icon;
         
         _dialog = dialog;
 
@@ -65,10 +67,10 @@ public class DialogController : MonoBehaviour
 
         txtSentence.text = sentence.sentence;
 
-        _audioSource.Stop();
+        //_audioSource.Stop();
         
-        _audioSource.clip = sentence.audioClip;
-        _audioSource.Play();
+        //_audioSource.clip = sentence.audioClip;
+        //_audioSource.Play();
     }
 
     public void NextSentence()
