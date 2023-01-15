@@ -1,0 +1,12 @@
+ID;CHARACTER;EMOTION;FRENCH;ENGLISH
+GENERIC_GREETING;PLAYER;TIRED;Je veux retourner me coucher au secours.;I'm happy to go to school. Life is great !
+;AURORA;HAPPY;Salut {PLAYER_NAME} !;Pikachu is not a good pokemon tbh.
+;GUARD;NEUTRAL;Bonjour citoyen de Franckopolis.;Lyric's Cataclysmik, Inspiration problématique
+DLG_BASE_AURORA_00;AURORA;NEUTRAL;Les nains sont la race la plus susceptible d'inventer des machines volantes.;Dwarves are the most likely race to invent flying machines.
+;PLAYER;NEUTRAL;Quoi ? Ils vivent sous terre !;What ? They live underground !
+;AURORA;EXCITED;Précisément ! Cela signifie qu'ils doivent avoir une compréhension innée de la dynamique des flux d'air pour éviter l'asphyxie et faire circuler de l'air pur dans les grottes.;Precisely ! That means they must have an innate understanding or air flow dynamics to prevent asphyxiation and keep clean air moving through the caves.
+;AURORA;HAPPY;Ils utilisent le façonnage des roches et divers dispositifs mécaniques pour contrôler le flux d'air dans leurs villes de montagne, ce qui pourrait donner à l'un d'entre eux l'idée d'utiliser le flux d'air pour soulever un véhicule.;They use rock shaping and various mechanical devices to control air flow through their mountain cities, which may give one of them the idea to use air flow to lift a vehicle.
+;PLAYER;ANGRY;Aurora, qu'est-ce que tu racontes bordel ?;Aurora, what the hell are you talking about ?
+DLG_BASE_GUARD_00;GUARD;NEUTRAL;Comment puis-je vous aider citoyen ?;How may I help you citizen ?
+;PLAYER;NEUTRAL;Où se trouve Franckopolis ?;Where is Franckopolis ?
+;GUARD;NEUTRAL;Vous y êtes citoyen. Bienvenue à Franckopolis.;You're there citizen. Welcome to Franckopolis.
